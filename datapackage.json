@@ -46,7 +46,7 @@
       "specType": "simple",
       "spec": {
         "type": "column",
-        "group": " date",
+        "group": "date",
         "series": [
           "rate"
         ]
