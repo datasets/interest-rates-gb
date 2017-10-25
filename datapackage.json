@@ -4,7 +4,8 @@
   "name":"interest_rates-gb",
   "sources": [
     {
-      "title": "Bank of England Website (originally an xls)"
+      "title": "Bank of England Website (originally an xls)",
+      "path": "www.bankofengland.co.uk/statistics/Documents/rates/baserate.xls"
     }
   ],
   "licenses": [
@@ -22,14 +23,6 @@
       "name": "data",
       "format": "csv",
       "mediatype": "text/csv",
-      "sources": [
-        {
-          "title": "Bank of England Website (originally an xls)",
-          "format": "csv",
-          "mimetype": "text/csv",
-          "path": "archive/data.original.csv"
-        }
-      ],
       "schema": {
         "fields": [
           {
