@@ -1,7 +1,7 @@
 import csv
 import datetime
-inFilePath = 'data/data.csv'
-outFilePath = 'archive/data_out.csv'
+inFilePath = 'archive/data.original.csv'
+outFilePath = 'data/data.csv'
 
 def convertMonthStringToInt(monthString):
     convertDict= { 'jan' : 1,
