@@ -1,0 +1,63 @@
+{
+  "title": "Bank of England Interest Rate",
+  "id": "8d7d4770-e1d1-11db-9f7e-00145101c316",
+  "name":"interest_rates-gb",
+  "sources": [
+    {
+      "title": "Bank of England Website (originally an xls)"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "odc-pddl",
+      "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
+      "path": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/data.csv",
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8",
+      "name": "data",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "sources": [
+        {
+          "title": "Bank of England Website (originally an xls)",
+          "format": "csv",
+          "mimetype": "text/csv",
+          "path": "archive/data.original.csv"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "format": "default"
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "graph",
+      "title": "Bank of England Interest Rate",
+      "specType": "simple",
+      "spec": {
+        "type": "column",
+        "group": " date",
+        "series": [
+          "rate"
+        ]
+      }
+    }
+  ]
+}
