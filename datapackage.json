@@ -28,12 +28,12 @@
           {
             "name": "date",
             "type": "date",
-            "format": "default"
+            "description": "date"
           },
           {
             "name": "rate",
             "type": "number",
-            "format": "default"
+            "description": "in percent %"
           }
         ]
       }
