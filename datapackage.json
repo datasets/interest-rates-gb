@@ -42,6 +42,7 @@
   "views": [
     {
       "name": "graph",
+      "resources": ["data"],
       "title": "Bank of England Interest Rate",
       "specType": "simple",
       "spec": {
