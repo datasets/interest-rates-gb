@@ -46,7 +46,7 @@
       "title": "Bank of England Interest Rate",
       "specType": "simple",
       "spec": {
-        "type": "bar",
+        "type": "line",
         "group": "date",
         "series": [
           "rate"
