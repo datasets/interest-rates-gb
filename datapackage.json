@@ -5,14 +5,14 @@
   "sources": [
     {
       "title": "Bank of England Website (originally an xls)",
-      "path": "www.bankofengland.co.uk/statistics/Documents/rates/baserate.xls"
+      "path": "https://bankofengland.co.uk/statistics/Documents/rates/baserate.xls"
     }
   ],
   "licenses": [
     {
       "name": "odc-pddl",
       "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
-      "path": "http://opendatacommons.org/licenses/pddl/"
+      "path": "https://opendatacommons.org/licenses/pddl/"
     }
   ],
   "resources": [
