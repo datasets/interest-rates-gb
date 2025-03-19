@@ -10,6 +10,9 @@ Converted by assuming where month or day not given that it was the first of the 
 
 Original data in xls format www.bankofengland.co.uk/statistics/Documents/rates/baserate.xls
 
+## Automation
+Up-to-date (auto-updates every month) interest-rate-gb dataset could be found on the datahub.io: https://datahub.io/core/interest-rates-gb
+
 ## License
 
 Public Domain Dedication and License.
